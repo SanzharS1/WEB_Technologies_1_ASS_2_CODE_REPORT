@@ -1,0 +1,198 @@
+/* Step 1: External CSS and Structure */
+
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Step 2: Typography */
+
+/* Font styles for headers */
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    color: #4CAF50;
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+h3 {
+    font-size: 22px;
+    color: #555;
+}
+
+/* Paragraph text */
+.paragraph-text {
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/* Step 3: Colors and Backgrounds */
+
+/* Background for header and content */
+#header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+.section-heading {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#image-section img {
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: block;
+    margin: 0 auto;
+}
+
+.links-container a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #0066cc;
+}
+
+.links-container a:hover {
+    text-decoration: underline;
+}
+
+/* Step 4: Layout and Box Model */
+#table-section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.schedule-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.schedule-table th, .schedule-table td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.schedule-table th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Step 5: Navigation Menu */
+.nav-link {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+/* Step 6: Buttons */
+.main-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.main-button:hover {
+    background-color: #45a049;
+}
+
+/* Step 7: Two-Column Layout */
+.two-column-layout {
+    width: 100%;
+    margin: 20px 0;
+    border-collapse: collapse;
+}
+
+.two-column-layout td {
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.layout-left {
+    background-color: #f4f4f4;
+    width: 30%;
+}
+
+.layout-right {
+    background-color: #fff;
+    width: 70%;
+}
+
+/* Step 8: Form Styling */
+.form-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 50%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+input[type="color"] {
+    width: 20px; /* Устанавливаем фиксированную ширину */
+    height: 20px; /* Устанавливаем фиксированную высоту */
+    border: none; /* Убираем границу */
+    padding: 0; /* Убираем внутренние отступы */
+    cursor: pointer; /* Устанавливаем курсор в виде руки */
+    border-radius: 100%; /* Делаем поле круглым */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Добавляем тень для лучшего визуального восприятия */
+}
+
+/* Стили для отображения выбранного цвета */
+.color-display {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.color-box {
+    width: 40px; /* Установим фиксированную ширину квадрата */
+    height: 40px; /* Установим фиксированную высоту квадрата */
+    border-radius: 5px; /* Скруглим углы квадрата */
+    border: 1px solid #ccc; /* Добавим границу */
+    margin-top: 5px;
+    }
+
+.submit-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #45a049;
+}
+
+/* Step 9: Accessibility */
+a:focus, button:focus {
+    outline: 2px solid #ff0;
+}
