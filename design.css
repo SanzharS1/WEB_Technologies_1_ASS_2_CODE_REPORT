@@ -156,26 +156,25 @@ h3 {
 }
 
 input[type="color"] {
-    width: 20px; /* Устанавливаем фиксированную ширину */
-    height: 20px; /* Устанавливаем фиксированную высоту */
-    border: none; /* Убираем границу */
-    padding: 0; /* Убираем внутренние отступы */
-    cursor: pointer; /* Устанавливаем курсор в виде руки */
-    border-radius: 100%; /* Делаем поле круглым */
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Добавляем тень для лучшего визуального восприятия */
+    width: 20px; 
+    height: 20px; 
+    border: none; 
+    padding: 0; 
+    cursor: pointer; 
+    border-radius: 100%; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); 
 }
 
-/* Стили для отображения выбранного цвета */
 .color-display {
     margin-top: 10px;
     font-size: 14px;
 }
 
 .color-box {
-    width: 40px; /* Установим фиксированную ширину квадрата */
-    height: 40px; /* Установим фиксированную высоту квадрата */
-    border-radius: 5px; /* Скруглим углы квадрата */
-    border: 1px solid #ccc; /* Добавим границу */
+    width: 40px; 
+    height: 40px; 
+    border-radius: 5px; 
+    border: 1px solid #ccc; 
     margin-top: 5px;
     }
 
@@ -196,3 +195,4 @@ input[type="color"] {
 a:focus, button:focus {
     outline: 2px solid #ff0;
 }
+
